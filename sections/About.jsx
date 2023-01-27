@@ -16,25 +16,27 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| About Fixie" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
-        <span className="font-extrabold text-white">
-          madness of the metaverse
-        </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        <span className="font-extrabold text-white">Fixie </span> 
+        the ultimate online platform for connecting users with skilled labor and service providers.
+         Our mission is to provide excellent on-demand services to users and gig opportunities to  {' '}
+         <span className="font-extrabold text-white">
+          artisans 
+          </span>{' '}
+           in the simplest, 
+         most efficient, and shortest time possible. Whether you're a homeowner looking for a handyman, a contractor searching for skilled labor,
+          or an artisan looking for gig opportunities, Fixie has you covered. Our platform makes 
+          it easy to find the right people for all your projects and get a great service delivered.
+         With Fixie, you can rest   <span className="font-extrabold text-white"> assured </span> 
+         that you'll get the job        <span className="font-extrabold text-white"> done </span> right and on time.
+        {' '}
+  
+
       </motion.p>
 
       <motion.img
