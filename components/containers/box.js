@@ -1,6 +1,11 @@
 import styled, { css } from 'styled-components'
+<<<<<<< HEAD
 import { Margins, Paddings } from '../../theme/function'
 import device, { size } from '../../theme/devise'
+=======
+import { Margins, MarginsType, Paddings, PaddingsType } from '../../themes/function'
+import device, { size } from '../../themes/devise'
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
 
 export const mediaqueries = Object.keys(size)
     .sort(function (a, b) {

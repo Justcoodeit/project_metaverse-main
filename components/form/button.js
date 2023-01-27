@@ -1,5 +1,9 @@
 import styled, { css } from 'styled-components'
+<<<<<<< HEAD
 import { Paddings, Margins } from '../../theme/function'
+=======
+import { Paddings, Margins } from '../../themes/function'
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
 import device from '../../theme/devise'
 
 
@@ -66,7 +70,11 @@ export const SharedButtonStyle = css`
                 }
             `
         if (props.social)
+<<<<<<< HEAD
             return css`
+=======
+            return css<SharedButtonStyleProps>`
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
                 background: ${({ provider }) => {
                     if (provider === 'google') return 'var(--color-white)'
                     if (provider === 'facebook') return 'var(--color-blue)'
@@ -127,7 +135,11 @@ export const SharedButtonStyle = css`
     ${Margins}
 `
 
+<<<<<<< HEAD
 const Button = styled.button`
+=======
+const Button = styled.button<SharedButtonStyleProps>`
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
     ${SharedButtonStyle}
 
     &:hover {

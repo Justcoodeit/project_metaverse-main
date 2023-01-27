@@ -1,7 +1,15 @@
 import React, { useState } from 'react'
+<<<<<<< HEAD
 import styled from 'styled-components'
 import VerticalCarousel from '../components/_verical-carousel'
 import PlatformSlideshow from '../components/_platformSlideshow'
+=======
+// import { graphql, useStaticQuery } from 'gatsby'
+import styled from 'styled-components'
+import VerticalCarousel from './_vertical-carousel'
+import PlatformSlideshow from './_platform-slideshow'
+// import { contents, contents_ppc, header_items } from './_data'
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
 import device from '../theme/devise'
 import { Button } from '../components/form/button'
 import { Container, Box, Flex } from '../components/containers'
@@ -24,7 +32,11 @@ const HeroWrapper = styled.section`
         min-height: 846px;
     }
 `
+<<<<<<< HEAD
 const HeroButton = styled.button`
+=======
+const HeroButton = styled(Button)`
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
     padding: 17px 24px;
     display: flex;
     align-items: center;
@@ -51,12 +63,20 @@ const StyledHeader = styled(Header)`
 const HeroHeader = ({ text }) => {
     return (
         <StyledHeader type="main-landing-title" color="white">
+<<<<<<< HEAD
              {text} 
+=======
+           <h1>   {text} </h2> 
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
         </StyledHeader>
     )
 }
 
+<<<<<<< HEAD
 const Hero = () => {
+=======
+const Hero = ({ is_ppc }) => {
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
 
     const [is_logged_in,setIs_logged_in] = useState(true)
 
@@ -95,10 +115,16 @@ const Hero = () => {
                                     max_width: '100%',
                                 }}
                             >
+<<<<<<< HEAD
                                 {/* {header_items.map((item) => (
                                     <HeroHeader key={item.id} text={item.text} />
                                 ))} */}
                                 
+=======
+                                {header_items.map((item) => (
+                                    // <HeroHeader key={item.id} text={item.text} />
+                                ))}
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
                             </Flex>
                             <Header
                                 as="h2"
@@ -107,10 +133,21 @@ const Hero = () => {
                                 min_height="auto"
                                 weight="normal"
                             >
+<<<<<<< HEAD
                                 
                                   TrTradeTradeade forex, stocks & indices, cryptocurrencies, commodities, and derived
                             </Header>
                             {/* <VerticalCarousel contents={ contents} />  */}
+=======
+                                {/* {is_eu && (
+                                    <Localize translate_text="TrTradeTradeade forex, stocks & indices, cryptocurrencies, commodities, and derived." />
+                                )}
+                                {is_row && (
+                                    <Localize translate_text="Trade forex, stocks & indices, cryptocurrencies, commodities, and derived." />
+                                )} */}
+                            </Header>
+                            {/* <VerticalCarousel contents={is_ppc ? contents_ppc : contents} /> */}
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
                             <Box tabletL={{ mt: '-8px' }}>
                                 {is_logged_in ? (
                                     <HeroButton
@@ -118,7 +155,11 @@ const Hero = () => {
                                         id="dm-hero-signup"
                                         secondary
                                     >
+<<<<<<< HEAD
                                        Get Trading
+=======
+                                        <h1> Get Trading</h1>
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
                                     </HeroButton>
                                 ) : (
                                     <HeroButton
@@ -127,7 +168,11 @@ const Hero = () => {
                                         id="dm-hero-signup"
                                         secondary
                                     >
+<<<<<<< HEAD
                                      Create free demo account
+=======
+                                        <h1> Create free demo account</h1>
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
 
                                     </HeroButton>
                                 )}

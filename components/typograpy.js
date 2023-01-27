@@ -1,7 +1,12 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
+<<<<<<< HEAD
 import { generateResponsiveStyles } from './containers/box'
 import { Margins, Paddings } from '../theme/function'
+=======
+import { generateResponsiveStyles } from '../containers/box'
+import { Margins, Paddings } from '../themes/function'
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
 import device from '../theme/devise'
 
 
@@ -183,7 +188,11 @@ export const Header = styled(({ as = 'h2', children, ...props }) =>
     ${responsiveStyles}
 `
 
+<<<<<<< HEAD
 export const LinkText = styled(Text).attrs({ as: 'a' })`
+=======
+export const LinkText = styled(Text).attrs({ as: 'a' })<LinkTextProps>`
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
     ${BaseLink}
 `
 

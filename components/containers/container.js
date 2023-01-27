@@ -1,7 +1,13 @@
 import styled from 'styled-components'
+<<<<<<< HEAD
 import Box, { generateResponsiveStyles } from '../containers/box'
 import { flexStyles } from './flex'
 import device from '../../theme/devise'
+=======
+import Box, { generateResponsiveStyles } from './box'
+import { flexStyles } from './flex'
+import device from '../../themes/devise'
+>>>>>>> 633ff8d9e8721fd1d0359f40fcc7eb2e8ce99288
 
 const responsiveStyles = generateResponsiveStyles(flexStyles)
 
