@@ -12,8 +12,8 @@ function Services() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-10 lg:pb-20">
-          <div className="p-8 bg-[#211D32] flex text-white justify-between font-bold cursor-pointer relative group">
-            UI/UX Design
+          <div className="p-8  flex text-white justify-between font-bold cursor-pointer relative group">
+          Wellness
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -47,7 +47,7 @@ function Services() {
             </svg>
           </div>
           <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
-            UI/UX Design
+          Tutoring services
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -64,7 +64,7 @@ function Services() {
             </svg>
           </div>
           <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
-            App Development
+          Event services.
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -81,7 +81,7 @@ function Services() {
             </svg>
           </div>
           <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
-            Product Design
+          Project management services
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -98,7 +98,7 @@ function Services() {
             </svg>
           </div>
           <div className="p-8 bg-[#211D32] flex text-white justify-between cursor-pointer font-bold">
-            Social Media
+         Renovation services
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"

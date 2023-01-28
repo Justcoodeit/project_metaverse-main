@@ -12,9 +12,9 @@ const Hero = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-row`}
+      className={`${styles.innerWidth} mx-auto sm:flex flex-col lg:flex-row`}
     >
-      <div className="flex justify-center items-center flex-col relative z-10">
+      <div className="flex justify-center items-center flex-col  relative z-10">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
           Quicker cheaper at 
         </motion.h1>
@@ -23,7 +23,7 @@ const Hero = () => (
           className="flex flex-row justify-center items-center"
         >
           <h1 className={styles.heroHeading}>your </h1>
-          <div className={styles.heroDText} />
+          {/* <div className={styles.heroDText} /> */}
           <h1 className={styles.heroHeading}>best service</h1>
         </motion.div>
       </div>

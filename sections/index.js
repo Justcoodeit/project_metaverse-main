@@ -6,8 +6,12 @@ import WhatsNew from './WhatsNew';
 import World from './World';
 import Insights from './Insights';
 import Feedback from './Feedback';
+import Company from './Company';
+import Services from './Services';
 
 export {
+  Services,
+  Company,
   Hero,
   About,
   Explore,
